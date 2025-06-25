@@ -79,7 +79,8 @@ O dashboard em Power BI apresenta os principais KPIs obtidos da camada Gold, com
 - Pedidos por cidade
 - Entregas por motorista
 
-![Image](https://github.com/user-attachments/assets/cfe4caf3-66b8-4bf9-9f0d-2688e1126ed2)
+
+![image alt](https://github.com/vinymeireles/ifood/blob/aed25f4321783d0759d60a68956499614e4e34de/Image/Dashboard.png)
 
 ▶️ Execução
 Clone o repositório:
