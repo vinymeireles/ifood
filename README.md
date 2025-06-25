@@ -1,7 +1,4 @@
-# ifood
-Projeto de Engenharia de Dados Ifood
-
-# 🛵 Projeto de Engenharia de Dados: Brazilian Delivery Center
+# 🛵 Projeto de Engenharia de Dados: Brazilian Delivery Center IFOOD
 
 Este repositório contém o pipeline completo de Engenharia de Dados utilizando a arquitetura **Medallion (Bronze, Silver e Gold)** com dados públicos do [Brazilian Delivery Center no Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center), além da análise de KPIs de negócio visualizados em **Power BI**.
 
@@ -18,3 +15,5 @@ Este repositório contém o pipeline completo de Engenharia de Dados utilizando 
 ├── /data                           # Arquivos .parquet gerados em cada camada
 ├── /powerbi                        # Dashboard e arquivos de relatório do Power BI
 └── README.md
+![ifood-logo-0](https://github.com/user-attachments/assets/305f52e6-442a-4e89-871e-fd8dc2ff3061)
+![ifood-logo-0](https://github.com/user-attachments/assets/305f52e6-442a-4e89-871e-fd8dc2ff3061)
