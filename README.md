@@ -1,10 +1,10 @@
-# 🛵 Projeto de Engenharia de Dados: Brazilian Delivery Center IFOOD
+## 🛵 Projeto de Engenharia de Dados: Brazilian Delivery Center IFOOD
 
 Este repositório contém o pipeline completo de Engenharia de Dados utilizando a arquitetura **Medallion (Bronze, Silver e Gold)** com dados públicos do [Brazilian Delivery Center no Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center), além da análise de KPIs de negócio visualizados em **Power BI**.
 
 ---
 
-## 📁 Estrutura do Projeto
+### 📁 Estrutura do Projeto
 
 ```bash
 ├── Notebook
@@ -14,6 +14,10 @@ Este repositório contém o pipeline completo de Engenharia de Dados utilizando 
   ├── 04.Analytics_Business.ipynb     # Análises de negócio e geração de insights
   ├── 5.Save_file_to_Power_BI.ipynb   # Exportação dos dados para visualização no Power BI
 ├── /data                           # Arquivos .parquet gerados em cada camada
+  ├── /Bronze                       # Arquivos transformados em Parket da camada Raw (dados brutos)
+  ├── /Silver                       # Arquivos processados por ETL
+  ├── /Gold                         # Arquivos prontos para produção e consumo
+  ├── /Gold Parquet                 # Arquivos para insight no Power BI 
 ├── /powerbi                        # Dashboard e arquivos de relatório do Power BI
 └── README.md
 
@@ -26,7 +30,7 @@ Parquet (armazenamento columnar)
 
 Power BI (visualização)
 
-Python 3.10
+Python 3.13
 
 Kaggle Datasets API
 
@@ -65,15 +69,12 @@ Métricas de eficiência operacional.
 📊 Visualização no Power BI
 O dashboard em Power BI apresenta os principais KPIs obtidos da camada Gold, com filtros interativos e visualizações:
 
-Receita mensal
-
-Número de entregas por centro
-
-Tempo médio de entrega
-
-Avaliação média dos entregadores
-
-Comparativo entre centros de distribuição
+- Receita mensal
+- Nº de pedidos por canal
+- Ticket médio por loja
+- Distância média de entrega
+- Pedidos por cidade
+- Entregas por motorista
 
 🧾 Arquivo .pbix disponível na pasta /powerbi.
 
@@ -101,11 +102,14 @@ Execute os notebooks na ordem:
 Importe os arquivos .parquet gerados no Power BI para análise.
 
 📈 Exemplos de KPIs Gerados
-Métrica	Descrição
-Receita Total por Mês	Soma dos valores de pedido por mês
-Avaliação Média por Entregador	Média das notas de avaliação dos entregadores
-Volume de Pedidos por Centro	Quantidade de pedidos por local de distribuição
-Tempo Médio de Entrega	Diferença média entre created_at e delivered_at
+Métrica	       |----------| Descrição
+Receita mensal: Total de vendas somadas por mês.
+Nº de pedidos por canal: Quantidade de pedidos feita por cada canal de vendas.
+Ticket médio por loja: Valor médio gasto por pedido em cada loja.
+Distância média de entrega: Média das distâncias percorridas em entregas.
+Pedidos por cidade: Total de pedidos agrupados por cidade (hub).
+Entregas por motorista: Quantidade de entregas realizadas por cada motorista.
+
 
 📌 Referência dos Dados
 Dataset: Brazilian Delivery Center - Kaggle
