@@ -79,7 +79,7 @@ O dashboard em Power BI apresenta os principais KPIs obtidos da camada Gold, com
 - Pedidos por cidade
 - Entregas por motorista
 
-🧾 Arquivo .pbix disponível na pasta /powerbi.
+![Image](https://github.com/user-attachments/assets/cfe4caf3-66b8-4bf9-9f0d-2688e1126ed2)
 
 ▶️ Execução
 Clone o repositório:
