@@ -14,12 +14,15 @@ Este repositório contém o pipeline completo de Engenharia de Dados utilizando 
   ├── 04.Analytics_Business.ipynb     # Análises de negócio e geração de insights
   ├── 5.Save_file_to_Power_BI.ipynb   # Exportação dos dados para visualização no Power BI
 ├── /data                           # Arquivos .parquet gerados em cada camada
-  ├── /Bronze                       # Arquivos transformados em Parket da camada Raw (dados brutos)
-  ├── /Silver                       # Arquivos processados por ETL
-  ├── /Gold                         # Arquivos prontos para produção e consumo
-  ├── /Gold Parquet                 # Arquivos para insight no Power BI 
+  ├── /Raw                          # Arquivos .csv datasets da camada Raw     
+  ├── /Bronze                       # * Arquivos transformados em Parket da camada Raw (dados brutos)
+  ├── /Silver                       # * Arquivos processados por ETL
+  ├── /Gold                         # * Arquivos prontos para produção e consumo
+  ├── /File Parquet                 # * Arquivos parket para insight no Power BI 
 ├── /powerbi                        # Dashboard e arquivos de relatório do Power BI
 └── README.md
+
+* Os arquivos são gerados pelos notebooks, no projeto só consta os arquivos .csv da camada Raw
 
 ⚙️ Tecnologias Utilizadas
 Databricks Community Edition
