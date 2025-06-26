@@ -1,8 +1,9 @@
 ## 🛵 Projeto de Engenharia de Dados: Ifood - Brazilian Delivery Center 
 
-Este repositório contém o pipeline completo de Engenharia de Dados utilizando a arquitetura **Medallion (Bronze, Silver e Gold)** com dados públicos do [Brazilian Delivery Center no Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center), além da análise de KPIs de negócio visualizados em **Power BI**.
-
+#### Este repositório contém o pipeline completo de Engenharia de Dados utilizando a arquitetura **Medallion (Bronze, Silver e Gold)** com dados públicos do [Brazilian Delivery Center no Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center), além da análise de KPIs de negócio visualizados em **Power BI**.
+<img src="Image/ifood-logo-0.png" width="200" height="200">
 ---
+
 
 ### 📁 Estrutura do Projeto
 
@@ -78,11 +79,10 @@ O dashboard em Power BI apresenta os principais KPIs obtidos da camada Gold, com
 - Distância média de entrega
 - Pedidos por cidade
 - Entregas por motorista
+```
+<img src="Image/Dashboard.png" >
 
-
-![Dashboard](https://github.com/user-attachments/assets/f28958b8-52df-4206-94eb-28c0bd446165)
-
-
+```
 ▶️ Execução
 Clone o repositório:
 
@@ -90,7 +90,7 @@ bash
 Copiar
 Editar
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Acesse os notebooks no Databricks Community Edition.
+Acesse os notebooks no Databricks Free Edition.
 
 Execute os notebooks na ordem:
 
@@ -105,26 +105,45 @@ Execute os notebooks na ordem:
 05.Save_file_to_Power_BI.ipynb
 
 Importe os arquivos .parquet gerados no Power BI para análise.
-
+```
 📈 Exemplos de KPIs Gerados
-Métrica	       |----------| Descrição
-Receita mensal: Total de vendas somadas por mês.
-Nº de pedidos por canal: Quantidade de pedidos feita por cada canal de vendas.
-Ticket médio por loja: Valor médio gasto por pedido em cada loja.
-Distância média de entrega: Média das distâncias percorridas em entregas.
-Pedidos por cidade: Total de pedidos agrupados por cidade (hub).
-Entregas por motorista: Quantidade de entregas realizadas por cada motorista.
 
+<table>
+  <thead>
+    <tr>
+      <th>Métrica</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Receita mensal</td>
+      <td>Total de vendas somadas por mês.</td>
+    </tr>
+    <tr>
+      <td>Nº de pedidos por canal</td>
+      <td>Quantidade de pedidos feita por cada canal de vendas.</td>
+    </tr>
+    <tr>
+      <td>Ticket médio por loja</td>
+      <td>Valor médio gasto por pedido em cada loja.</td>
+    </tr>
+    <tr>
+      <td>Distância média de entrega</td>
+      <td>Média das distâncias percorridas em entregas.</td>
+    </tr>
+    <tr>
+      <td>Pedidos por cidade</td>
+      <td>Total de pedidos agrupados por cidade (hub).</td>
+    </tr>
+    <tr>
+      <td>Entregas por motorista</td>
+      <td>Quantidade de entregas realizadas por cada motorista.</td>
+    </tr>
+  </tbody>
+</table>
 
-📌 Referência dos Dados
-Dataset: Brazilian Delivery Center - Kaggle
-Autor: Nosbiel C Santos
-Licença: Creative Commons (CC BY-NC-SA 4.0)
-
-🧑‍💻 Autor
-Vinicius Meireles
-Engenheiro de Dados | Análise de Negócios com Power BI
-LinkedIn (atualize com seu link)
+```
 
 ✅ Status do Projeto
 ✔️ Pipeline completo com camadas Bronze, Silver e Gold
@@ -138,3 +157,21 @@ LinkedIn (atualize com seu link)
  Deploy do Power BI em workspace público
 
  Adição de testes automatizados no pipeline
+
+```
+
+```
+
+📌 Referência dos Dados
+Dataset: Brazilian Delivery Center - Kaggle
+Autor: Nosbiel C Santos
+Licença: Creative Commons (CC BY-NC-SA 4.0)
+
+🧑‍💻 Autor
+Vinicius Meireles
+Engenheiro de Dados | Análise de Negócios com Power BI
+```
+LinkedIn: <a href= "https://www.linkedin.com/in/pviniciusmeireles/"> Linkedin </a>
+
+<img src="Image/Logo Engenharia de Dados.png" width="150" height="150">
+
