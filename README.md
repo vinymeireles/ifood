@@ -1,9 +1,6 @@
-## 🛵 Projeto de Engenharia de Dados: Ifood - Brazilian Delivery Center 
+## 🛵 Projeto de Engenharia de Dados: Ifood - Brazilian Delivery Center
 
 #### Este repositório contém o pipeline completo de Engenharia de Dados utilizando a arquitetura **Medallion (Bronze, Silver e Gold)** com dados públicos do [Brazilian Delivery Center no Kaggle](https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center), além da análise de KPIs de negócio visualizados em **Power BI**.
-<img src="Image/ifood-logo-0.png" width="200" height="200">
----
-
 
 ### 📁 Estrutura do Projeto
 
@@ -38,7 +35,11 @@ Python 3.13
 
 Kaggle Datasets API
 
-🧱 Arquitetura Medallion
+````
+### 🧱 Arquitetura Medallion
+<img src="Image/Diagrama ETL Ifood.png">
+
+```
 O projeto segue a arquitetura em camadas Medallion para processamento de dados:
 
 🔸 Bronze
